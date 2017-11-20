@@ -1,7 +1,5 @@
 # ember-cli-material-icons
 
-## ** THIS IS A WORK IN PROGRESS **
-
 This ember-cli addon facilitates the integration of google's [Material Icons](https://material.io/icons/) with ember-cli apps.
 
 ## Installation

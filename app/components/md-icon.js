@@ -1,0 +1,1 @@
+export { default } from 'ember-cli-material-icons/components/md-icon';

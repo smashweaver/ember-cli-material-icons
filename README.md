@@ -1,26 +1,33 @@
 # ember-cli-material-icons
 
-This README outlines the details of collaborating on this Ember addon.
+## ** THIS IS A WORK IN PROGRESS **
+
+This ember-cli addon facilitates the integration of google's [Material Icons](https://material.io/icons/) with ember-cli apps.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-cli-material-icons`
-* `npm install`
+```
+ember install ember-cli-material-icons`
+```
 
-## Running
+## Usage
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+Show an icon
+```
+{{md-icon "home"}}
+```
 
-## Running Tests
+Spin an icon
+```
+{{md-icon "setting" isSpin=true}}
+```
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
+Pulsate an icon
+```
+{{md-icon "setting" isPulse=true}}
+```
 
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+Spin an icon faster
+```
+{{md-icon "settings" isSpin=true is2x=true}}
+```

@@ -1,3 +1,17 @@
-<h2 id="title">Welcome to Ember</h2>
+<h1>EMBER MATERIAL ICONS</h1>
 
-{{outlet}}
+<h3>Show an icon</h3>
+{{code-snippet name="show-icon.hbs"}}
+{{md-icon "home"}}
+
+<h3>Spin an icon</h3>
+{{code-snippet name="spin-icon.hbs"}}
+{{md-icon "settings" isSpin=true}}
+
+<h3>Pulsate an icon</h3>
+{{code-snippet name="pulsate-icon.hbs"}}
+{{md-icon "settings" isPulse=true}}
+
+<h3>Spin an icon faster</h3>
+{{code-snippet name="spin-2x-icon.hbs"}}
+{{md-icon "settings" isSpin=true is2x=true}}

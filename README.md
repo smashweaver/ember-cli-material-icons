@@ -8,6 +8,9 @@ This ember-cli addon facilitates the integration of google's [Material Icons](ht
 ember install ember-cli-material-icons`
 ```
 
+## Demo site
+Check out examples at [https://smashweaver.github.io/ember-cli-material-icons/](https://smashweaver.github.io/ember-cli-material-icons/)
+
 ## Usage
 
 Show an icon
